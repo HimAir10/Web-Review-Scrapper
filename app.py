@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
 import requests
-import csv
-
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import logging
@@ -37,7 +35,9 @@ def index():
 
             filename = searchString + ".csv"
 
-
+            fw = open(filename, "w")
+            headers = "Product, Customer Name, Rating, Heading, Comment \n"
+            fw.write(headers)
             reviews = []
             for commentbox in commentboxes:
                 try:
@@ -64,7 +64,7 @@ def index():
                     commentHead = 'No Comment Heading'
                     logging.info(commentHead)
                 try:
-                    comtag = commentbox.div.div.find_all('div', {'class': ''})
+                    comtag = commentbox.div.div.find_all('div', {'class':''})
                     #custComment.encode(encoding='utf-8')
                     custComment = comtag[0].div.text
                 except Exception as e:
@@ -73,22 +73,10 @@ def index():
                 mydict = {"Product": searchString, "Name": name, "Rating": rating, "CommentHead": commentHead,
                           "Comment": custComment}
                 reviews.append(mydict)
-            with open(filename, "w", newline="", encoding='utf-8') as f:
 
-                writer = csv.writer(f)
-                writer.writerow(["Product", "Customer Name", "Rating", "Heading", "Comment"])
-                for review in reviews:
-
-                    writer.writerow([
-                        review["Product"],
-                        review["Name"],
-                        review["Rating"],
-                        review["CommentHead"],
-                        review["Comment"]
-                    ])
             logging.info("log my final result {}".format(reviews))
 
-            
+
             client = pymongo.MongoClient("mongodb+srv://himanshujha7489:himanshu@cluster0.kfkwksn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
             db =client['scrapper_eng_pwskills']
             coll_pw_eng = db['scraper_pwskills_eng']
@@ -105,5 +93,5 @@ def index():
 
 
 if __name__=="__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run()
+

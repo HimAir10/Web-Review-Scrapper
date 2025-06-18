@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
 import requests
+import csv
+
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import logging
@@ -34,9 +36,8 @@ def index():
             commentboxes = prod_html.find_all('div', {'class': "RcXBOT"})
 
             filename = searchString + ".csv"
-            fw = open(filename, "w")
-            headers = "Product, Customer Name, Rating, Heading, Comment \n"
-            fw.write(headers)
+
+
             reviews = []
             for commentbox in commentboxes:
                 try:
@@ -72,6 +73,19 @@ def index():
                 mydict = {"Product": searchString, "Name": name, "Rating": rating, "CommentHead": commentHead,
                           "Comment": custComment}
                 reviews.append(mydict)
+            with open(filename, "w", newline="", encoding='utf-8') as f:
+
+                writer = csv.writer(f)
+                writer.writerow(["Product", "Customer Name", "Rating", "Heading", "Comment"])
+                for review in reviews:
+
+                    writer.writerow([
+                        review["Product"],
+                        review["Name"],
+                        review["Rating"],
+                        review["CommentHead"],
+                        review["Comment"]
+                    ])
             logging.info("log my final result {}".format(reviews))
 
             

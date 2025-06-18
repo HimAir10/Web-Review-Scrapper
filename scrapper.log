@@ -5714,3 +5714,109 @@ INFO:root:'NoneType' object has no attribute 'div'
 INFO:root:log my final result [{'Product': 'tv', 'Name': 'Sarika  Solanki ', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'Good picture quality value for money'}, {'Product': 'tv', 'Name': 'Brendan Mukhim', 'Rating': '3', 'CommentHead': 'Good', 'Comment': 'Tv is ok.. but the people who came to install the tv charged me Rs. 1800 for the wall mount. The TV should have come with a wall mount right out of the box. Disappointed with this.'}, {'Product': 'tv', 'Name': 'saha  ganesh', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'What a picture quality 😍💖Sound quality super crisp and clear 😉Qled semma Thanks @Flipkart'}, {'Product': 'tv', 'Name': 'Sumit  Kumar', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': 'Display and sound quality is better at this range.This smart TV has only 2 electricity star rating.'}, {'Product': 'tv', 'Name': 'Arka  Bhanja', 'Rating': '3', 'CommentHead': 'Good', 'Comment': 'The TV picture quality is good, I love it. The con is the motion clarity features, it creates jitter and makes images stuttery.  I believe that this feature should be turned off and irritating part is it will turn on automatically. Maybe future updates can fix this issue. The sound quality from the speaker is awesome and PS5 gaming experience is smooth.TCL customer support is very good. Please note the wall mount is free of cost from the company, TV installation person should not charge...'}, {'Product': 'tv', 'Name': 'Sandeep Chavan', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Awesome tv build is good worth buying in this price point'}, {'Product': 'tv', 'Name': 'Manikandan L', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Value for money and very good sound quality, installation person also good'}, {'Product': 'tv', 'Name': 'Gaurav Singh', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'I bought this TV after considering a lot of other options. QLED is any day better than LED TVs. The picture and sound quality is just amazing. Saturation and brightness levels are perfect. The remote could have been better for premium TV. Awesome delivery service by Flipkart and installation was done on the same day by TCL.'}, {'Product': 'tv', 'Name': 'Nimish Parikh', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Excellent and prompt support from Flipkart and TCL service team.'}, {'Product': 'tv', 'Name': 'Nilesh Mehta', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Value for money Best sound Best picture quality Super fast Android performance I like it 😊'}, {'Product': 'tv', 'Name': 'Nilesh Mehta', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Value for money Best sound Best picture quality Super fast Android performance I like it 😊'}]
 INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:01:46] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:01:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone15', 'Name': 'Rishabh  Jha', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Awesome 🔥🔥☺️'}, {'Product': 'iphone15', 'Name': 'bijaya mohanty', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Just go for it.Amazing one.Beautiful camera with super fast processor'}, {'Product': 'iphone15', 'Name': 'Ajin V', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'High quality camera😍'}, {'Product': 'iphone15', 'Name': 'Mousam  Guha Roy', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Very nice'}, {'Product': 'iphone15', 'Name': 'Nikhil Kumar', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Switch from OnePlus to iPhone I am stunned with camera performance. Everything is perfect on  iPhone 15.'}, {'Product': 'iphone15', 'Name': 'Prithivi Boruah', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Camera Quality Is Improved Loving It'}, {'Product': 'iphone15', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Awesome photography experience. Battery backup is good . Display is much better than 14 version.'}, {'Product': 'iphone15', 'Name': 'Rahul Shedge', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Totally happy!Camera 5Battery 5 Display 5Design 5'}, {'Product': 'iphone15', 'Name': 'Akshay Meena', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'So beautiful, so elegant, just a vowww😍❤️'}, {'Product': 'iphone15', 'Name': 'Arunji Govindaraju', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Awesome product very happy to hold this. Better In hand feel,matte finish. Good camera, Brighter screen with Dynamic Island, USB-C, great battery life.60Hz display is a dealbreaker for some.Its not much noticeable.Thank u Flipkart for the best deal and quick delivery.'}, {'Product': 'iphone15', 'Name': 'Arunji Govindaraju', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Awesome product very happy to hold this. Better In hand feel,matte finish. Good camera, Brighter screen with Dynamic Island, USB-C, great battery life.60Hz display is a dealbreaker for some.Its not much noticeable.Thank u Flipkart for the best deal and quick delivery.'}]
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:24:36] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:24:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'ipad', 'Name': 'Pratik  Pawar', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'I have been using the iPad 10 for over 5-6 months. I bought this one again for my niece who threw tantrums at me when she saw my iPad. In my experience of using an iPad for the first time, this one was as fast as my iPhone 14, clicked decent document pictures, is able to play heavy mobile games like Genshin Impact, has a never dying battery,and has a nice big display. What else do you want??'}, {'Product': 'ipad', 'Name': 'vishal bhardwaj', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': "If you are student want to make notes than go for it and the best advantage is that all third party pencils under 2k work perfectly on it personally I am using ESR pencil which is very great and giving great results.  If you are worring of the display gap than there's no need to be afraid or agonised about it as You use the ipad u get adapted to it and no problem occurs in it.  So go for it Without any hesitation."}, {'Product': 'ipad', 'Name': 'DEBRAJ MONDAL', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': "That's really a study material 🤗"}, {'Product': 'ipad', 'Name': 'Martina Biswas', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Good'}, {'Product': 'ipad', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Fabulous colour 😍Best performance'}, {'Product': 'ipad', 'Name': 'Nalin Jha', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Just wow'}, {'Product': 'ipad', 'Name': 'PRATEEK SHRIVASTAV', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'iPad 10 is Awesome. Nice Display and smoother experience. Sound Quality is also good. Camera is good. Loved this Tab.'}, {'Product': 'ipad', 'Name': 'Kaajal  Rawat', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Love this ipad.'}, {'Product': 'ipad', 'Name': 'Nikhil  Raj', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': "Yellow or golden don't know but it looks good ❤️"}, {'Product': 'ipad', 'Name': 'Abhisekh  Moshahari', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Thank you for giving me an awesome product'}, {'Product': 'ipad', 'Name': 'Abhisekh  Moshahari', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Thank you for giving me an awesome product'}]
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:34:48] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:34:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:39:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:39:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:39:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result []
+INFO:root:documents must be a non-empty list
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:39:11] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/himanshujha/PycharmProjects/Python Web Scrapper Project/new_pw_eng_scrap/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:root:name 'csv' is not defined
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:41:34] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/himanshujha/PycharmProjects/Python Web Scrapper Project/new_pw_eng_scrap/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:werkzeug: * Detected change in '/Users/himanshujha/PycharmProjects/Python Web Scrapper Project/new_pw_eng_scrap/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:43:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:43:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:43:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:name 'csv' is not defined
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:43:47] "POST /review HTTP/1.1" 200 -
+INFO:root:name 'csv' is not defined
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:43:52] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/himanshujha/PycharmProjects/Python Web Scrapper Project/new_pw_eng_scrap/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:werkzeug: * Detected change in '/Users/himanshujha/PycharmProjects/Python Web Scrapper Project/new_pw_eng_scrap/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:name 'csv' is not defined
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:45:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/himanshujha/PycharmProjects/Python Web Scrapper Project/new_pw_eng_scrap/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:werkzeug: * Detected change in '/Users/himanshujha/PycharmProjects/Python Web Scrapper Project/new_pw_eng_scrap/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-750-442
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'ipad', 'Name': 'Pratik  Pawar', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'I have been using the iPad 10 for over 5-6 months. I bought this one again for my niece who threw tantrums at me when she saw my iPad. In my experience of using an iPad for the first time, this one was as fast as my iPhone 14, clicked decent document pictures, is able to play heavy mobile games like Genshin Impact, has a never dying battery,and has a nice big display. What else do you want??'}, {'Product': 'ipad', 'Name': 'vishal bhardwaj', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': "If you are student want to make notes than go for it and the best advantage is that all third party pencils under 2k work perfectly on it personally I am using ESR pencil which is very great and giving great results.  If you are worring of the display gap than there's no need to be afraid or agonised about it as You use the ipad u get adapted to it and no problem occurs in it.  So go for it Without any hesitation."}, {'Product': 'ipad', 'Name': 'DEBRAJ MONDAL', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': "That's really a study material 🤗"}, {'Product': 'ipad', 'Name': 'Martina Biswas', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Good'}, {'Product': 'ipad', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Fabulous colour 😍Best performance'}, {'Product': 'ipad', 'Name': 'Nalin Jha', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Just wow'}, {'Product': 'ipad', 'Name': 'PRATEEK SHRIVASTAV', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'iPad 10 is Awesome. Nice Display and smoother experience. Sound Quality is also good. Camera is good. Loved this Tab.'}, {'Product': 'ipad', 'Name': 'Kaajal  Rawat', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Love this ipad.'}, {'Product': 'ipad', 'Name': 'Nikhil  Raj', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': "Yellow or golden don't know but it looks good ❤️"}, {'Product': 'ipad', 'Name': 'Abhisekh  Moshahari', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Thank you for giving me an awesome product'}, {'Product': 'ipad', 'Name': 'Abhisekh  Moshahari', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Thank you for giving me an awesome product'}]
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:46:49] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2025 17:46:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
